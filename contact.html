@@ -51,37 +51,26 @@
     </nav>
 <div class="container">
 
-<ul class="breadcrumb">
-  <li><a href="index.html">Mini Damas</a></li>
-  <li class="active">Contacto</li>
-</ul>
 
-
-	<h2>Formulario de contacto</h2>
+	<h2>Contact Form</h2>
 
 												
 						<script> var RecaptchaOptions = { theme : 'clean', lang : 'es' } </script>
 						
 						<form id="ContactoIndexForm" method="post" action="http://www.minidamas.com/contacto.php" accept-charset="utf-8">
 							<div class="form-group input text">
-								<label for="ContactoNombre">Nombre</label>
+								<label for="ContactoNombre">Name</label>
 								<input name="data[Contacto][nombre]" class="form-control" type="text" id="ContactoNombre" />
 							</div>
 							<div class="form-group input text">
-								<label for="ContactoEmail">Email de contacto</label>
+								<label for="ContactoEmail">Email</label>
 								<input name="data[Contacto][email]" class="form-control" type="text" id="ContactoEmail" />
 							</div>
 							<div class="form-group input text">
-								<label for="ContactoAsunto">Asunto</label>
-								<input name="data[Contacto][asunto]" class="form-control" type="text" id="ContactoAsunto" />
-							</div>
-							<div class="form-group input text">
-								<label for="ContactoMensaje">Mensaje</label>
+								<label for="ContactoMensaje">Message</label>
 								<textarea name="data[Contacto][mensaje]" class="form-control" rows="5" cols="30" id="ContactoMensaje" ></textarea>
 							</div>						
-							<div class="input text required">
-								<label>Escribe las dos palabras de la imagen en el campo de texto</label>
-							</div>
+							
 							
 							<div class="submit"><input class="boton" type="submit" value="Enviar" /></div>
 						</form>
