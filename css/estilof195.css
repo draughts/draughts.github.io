@@ -13,14 +13,14 @@ a
 body
 {
   color: #333333;
-  background-color: #ffffff;
+  background-color: #DDDDDD;
 }
 
 .navbar-inner 
 {
   padding-right: 0;
   padding-left: 0;
-  background-color: #337ab7;
+  background-color: #D4707A;
 }
 
 .navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner 
@@ -306,7 +306,7 @@ img{
     height: 100%;
     position: relative;
     z-index: 0;
-	margin-top:10px;
+	margin-top:30px;
 	height:490px;
 }
 
@@ -398,8 +398,8 @@ img{
 	background-color:lightBlue;
 	display:inline-block;
 	font-size:21px;
-	margin-top:10px;
-	padding:5px 35px;
+	margin-top:20px;
+	padding:10px 45px;
 	vertical-align:middle;
 	font-family:Arial;
 	color:#fff;
