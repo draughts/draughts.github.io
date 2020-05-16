@@ -389,25 +389,56 @@ img{
 
 
 #newGameButton {
-	-moz-border-radius:12px;
-	-webkit-border-radius:12px;
-	background: -moz-linear-gradient(center top , #57aeea, #3d94d1) repeat scroll 0 0 transparent;
-    background: -webkit-gradient(linear,center bottom,center top,from(#3d94d1),to(#57aeea));
-    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#57aeea',EndColorStr='#3d94d1');
+display: inline-block
+	margin: $button-spacing / 2
+	padding: ($button-spacing / 2) $button-spacing
 	
-	background-color:lightBlue;
-	display:inline-block;
-	font-size:21px;
-	margin-top:20px;
-	padding:5px 20px;
-	vertical-align:middle;
-	font-family:Arial;
-	color:#fff;
-	border:1px solid #84C5F3;
-	text-shadow:0 0 3px #333333;
-	cursor:pointer;
-	-moz-box-shadow:0 0 8px 1px #888888;
-	-webkit-box-shadow:0 0 8px 1px #888888;
+	border: none
+	border-radius: $button-spacing / 8
+	outline: none
+
+	background-color: $button-bg-color
+
+	color: $button-text-color
+	font-family: inherit
+	font-size: $button-text-size
+	font-weight: 400
+	line-height: $button-spacing
+	text-decoration: none
+	text-align: center
+
+	cursor: pointer
+	transition: all $animation-speed ease-out
+
+	&:focus,
+	&:hover
+		background-color: tint($button-bg-color, 10%)
+
+		box-shadow: 0 0 0 ($button-spacing / 8) $button-text-color, 0 0 0 ($button-spacing / 4) tint($button-bg-color, 10%)
+
+	&:active
+		background-color: shade($button-bg-color, 5%)
+
+		box-shadow: 0 0 0 ($button-spacing / 8) shade($button-bg-color, 5%), 0 0 0 ($button-spacing / 4) shade($button-bg-color, 5%)
+		transition-duration: $animation-speed / 2
+
+	&.is-outlined
+		border: ($button-spacing / 8) solid $button-bg-color
+		
+		background-color: transparent
+	
+		color: $button-bg-color
+	
+		&:focus,
+		&:hover
+			border-color: tint($button-bg-color, 10%)
+	
+			color: tint($button-bg-color, 10%)
+	
+		&:active
+			border-color: shade($button-bg-color, 5%)
+	
+			color: shade($button-bg-color, 5%)
 }
 
 #notificationDiv {
