@@ -1,236 +1,236 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//draughts.github.io/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//checkers.city/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://draughts.github.io/english-draughts.html</loc>
+		<loc>https://checkers.city/english-draughts.html</loc>
 		<lastmod>2020-02-24T18:48:56+00:00</lastmod>
 		<image:image>
-			<image:loc>https://draughts.github.io/wp-content/uploads/2020/02/English-draughts.jpg</image:loc>
+			<image:loc>https://checkers.city/wp-content/uploads/2020/02/English-draughts.jpg</image:loc>
 			<image:title><![CDATA[English draughts]]></image:title>
 			<image:caption><![CDATA[English draughts]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://draughts.github.io/brazilian-checkers.html</loc>
+		<loc>https://checkers.city/brazilian-checkers.html</loc>
 		<lastmod>2020-02-24T19:04:17+00:00</lastmod>
 		<image:image>
-			<image:loc>https://draughts.github.io/wp-content/uploads/2020/02/Brazilian-Checkers.jpg</image:loc>
+			<image:loc>https://checkers.city/wp-content/uploads/2020/02/Brazilian-Checkers.jpg</image:loc>
 			<image:title><![CDATA[Brazilian Checkers]]></image:title>
 			<image:caption><![CDATA[Brazilian Checkers]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://draughts.github.io/czech-checkers.html</loc>
+		<loc>https://checkers.city/czech-checkers.html</loc>
 		<lastmod>2020-02-24T19:08:22+00:00</lastmod>
 		<image:image>
-			<image:loc>https://draughts.github.io/wp-content/uploads/2020/02/Czech-Checkers.jpg</image:loc>
+			<image:loc>https://checkers.city/wp-content/uploads/2020/02/Czech-Checkers.jpg</image:loc>
 			<image:title><![CDATA[Czech Checkers]]></image:title>
 			<image:caption><![CDATA[Czech Checkers]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://draughts.github.io/american-pool-checkers.html</loc>
+		<loc>https://checkers.city/american-pool-checkers.html</loc>
 		<lastmod>2020-02-24T19:12:10+00:00</lastmod>
 		<image:image>
-			<image:loc>https://draughts.github.io/wp-content/uploads/2020/02/American-Pool-Checkers.jpeg</image:loc>
+			<image:loc>https://checkers.city/wp-content/uploads/2020/02/American-Pool-Checkers.jpeg</image:loc>
 			<image:title><![CDATA[American Pool Checkers]]></image:title>
 			<image:caption><![CDATA[American Pool Checkers]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://draughts.github.io/turkish-draughts.html</loc>
+		<loc>https://checkers.city/turkish-draughts.html</loc>
 		<lastmod>2020-02-24T19:19:27+00:00</lastmod>
 		<image:image>
-			<image:loc>https://draughts.github.io/wp-content/uploads/2020/02/Turkish-draughts.jpg</image:loc>
+			<image:loc>https://checkers.city/wp-content/uploads/2020/02/Turkish-draughts.jpg</image:loc>
 			<image:title><![CDATA[Turkish draughts]]></image:title>
 			<image:caption><![CDATA[Turkish draughts]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://draughts.github.io/italian-draughts.html</loc>
+		<loc>https://checkers.city/italian-draughts.html</loc>
 		<lastmod>2020-02-24T19:26:59+00:00</lastmod>
 		<image:image>
-			<image:loc>https://draughts.github.io/wp-content/uploads/2020/02/Italian-Draughts.jpg</image:loc>
+			<image:loc>https://checkers.city/wp-content/uploads/2020/02/Italian-Draughts.jpg</image:loc>
 			<image:title><![CDATA[Italian Draughts]]></image:title>
 			<image:caption><![CDATA[Italian Draughts]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://draughts.github.io/malaysian-singaporean-checkers.html</loc>
+		<loc>https://checkers.city/malaysian-singaporean-checkers.html</loc>
 		<lastmod>2020-02-24T19:49:32+00:00</lastmod>
 		<image:image>
-			<image:loc>https://draughts.github.io/wp-content/uploads/2020/02/Malaysian-Singaporean-checkers.jpg</image:loc>
+			<image:loc>https://checkers.city/wp-content/uploads/2020/02/Malaysian-Singaporean-checkers.jpg</image:loc>
 			<image:title><![CDATA[Malaysian Singaporean checkers]]></image:title>
 			<image:caption><![CDATA[Malaysian Singaporean checkers]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://draughts.github.io/mongolian-checkers.html</loc>
+		<loc>https://checkers.city/mongolian-checkers.html</loc>
 		<lastmod>2020-02-24T19:56:21+00:00</lastmod>
 		<image:image>
-			<image:loc>https://draughts.github.io/wp-content/uploads/2020/02/Mongolian-checkers.jpg</image:loc>
+			<image:loc>https://checkers.city/wp-content/uploads/2020/02/Mongolian-checkers.jpg</image:loc>
 			<image:title><![CDATA[Mongolian checkers]]></image:title>
 			<image:caption><![CDATA[Mongolian checkers]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://draughts.github.io/armenian-draughts.html</loc>
+		<loc>https://checkers.city/armenian-draughts.html</loc>
 		<lastmod>2020-02-24T20:05:26+00:00</lastmod>
 		<image:image>
-			<image:loc>https://draughts.github.io/wp-content/uploads/2020/02/Armenian-Draughts.jpg</image:loc>
+			<image:loc>https://checkers.city/wp-content/uploads/2020/02/Armenian-Draughts.jpg</image:loc>
 			<image:title><![CDATA[Armenian Draughts]]></image:title>
 			<image:caption><![CDATA[Armenian Draughts]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://draughts.github.io/russian-checkers.html</loc>
+		<loc>https://checkers.city/russian-checkers.html</loc>
 		<lastmod>2020-02-24T20:13:55+00:00</lastmod>
 		<image:image>
-			<image:loc>https://draughts.github.io/wp-content/uploads/2020/02/Russian-Checkers.jpeg</image:loc>
+			<image:loc>https://checkers.city/wp-content/uploads/2020/02/Russian-Checkers.jpeg</image:loc>
 			<image:title><![CDATA[Russian Checkers]]></image:title>
 			<image:caption><![CDATA[Russian Checkers]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://draughts.github.io/international-checkers.html</loc>
+		<loc>https://checkers.city/international-checkers.html</loc>
 		<lastmod>2020-02-24T20:26:48+00:00</lastmod>
 		<image:image>
-			<image:loc>https://draughts.github.io/wp-content/uploads/2020/02/International-Checkers.jpg</image:loc>
+			<image:loc>https://checkers.city/wp-content/uploads/2020/02/International-Checkers.jpg</image:loc>
 			<image:title><![CDATA[International Checkers]]></image:title>
 			<image:caption><![CDATA[International Checkers]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://draughts.github.io/canadian-checkers.html</loc>
+		<loc>https://checkers.city/canadian-checkers.html</loc>
 		<lastmod>2020-02-24T20:28:05+00:00</lastmod>
 		<image:image>
-			<image:loc>https://draughts.github.io/wp-content/uploads/2020/02/Canadian-Checkers.jpg</image:loc>
+			<image:loc>https://checkers.city/wp-content/uploads/2020/02/Canadian-Checkers.jpg</image:loc>
 			<image:title><![CDATA[Canadian Checkers]]></image:title>
 			<image:caption><![CDATA[Canadian Checkers]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://draughts.github.io/bashni.html</loc>
+		<loc>https://checkers.city/bashni.html</loc>
 		<lastmod>2020-02-24T20:52:50+00:00</lastmod>
 		<image:image>
-			<image:loc>https://draughts.github.io/wp-content/uploads/2020/02/Bashni-Column-Checkers.jpg</image:loc>
+			<image:loc>https://checkers.city/wp-content/uploads/2020/02/Bashni-Column-Checkers.jpg</image:loc>
 			<image:title><![CDATA[Bashni Column Checkers]]></image:title>
 			<image:caption><![CDATA[Bashni Column Checkers]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://draughts.github.io/wp-content/uploads/2020/02/Bashni.png</image:loc>
+			<image:loc>https://checkers.city/wp-content/uploads/2020/02/Bashni.png</image:loc>
 			<image:caption><![CDATA[Bashni]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://draughts.github.io/poddavki.html</loc>
+		<loc>https://checkers.city/poddavki.html</loc>
 		<lastmod>2020-02-24T21:03:25+00:00</lastmod>
 		<image:image>
-			<image:loc>https://draughts.github.io/wp-content/uploads/2020/02/Poddavki.jpg</image:loc>
+			<image:loc>https://checkers.city/wp-content/uploads/2020/02/Poddavki.jpg</image:loc>
 			<image:title><![CDATA[Poddavki]]></image:title>
 			<image:caption><![CDATA[Poddavki]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://draughts.github.io/lasca.html</loc>
+		<loc>https://checkers.city/lasca.html</loc>
 		<lastmod>2020-02-24T21:19:49+00:00</lastmod>
 		<image:image>
-			<image:loc>https://draughts.github.io/wp-content/uploads/2020/02/Lasca.jpg</image:loc>
+			<image:loc>https://checkers.city/wp-content/uploads/2020/02/Lasca.jpg</image:loc>
 			<image:title><![CDATA[Lasca]]></image:title>
 			<image:caption><![CDATA[Lasca]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://draughts.github.io/philosophy-shogi-checkers.html</loc>
+		<loc>https://checkers.city/philosophy-shogi-checkers.html</loc>
 		<lastmod>2020-02-24T22:38:12+00:00</lastmod>
 		<image:image>
-			<image:loc>https://draughts.github.io/wp-content/uploads/2020/02/Philosophy-Shogi-checkers-2.jpg</image:loc>
+			<image:loc>https://checkers.city/wp-content/uploads/2020/02/Philosophy-Shogi-checkers-2.jpg</image:loc>
 			<image:title><![CDATA[Philosophy-Shogi-checkers]]></image:title>
 			<image:caption><![CDATA[Philosophy Shogi checkers]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://draughts.github.io/wp-content/uploads/2020/02/Philosophy-Shogi-checkers-1.jpg</image:loc>
+			<image:loc>https://checkers.city/wp-content/uploads/2020/02/Philosophy-Shogi-checkers-1.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://draughts.github.io/epaminondas.html</loc>
+		<loc>https://checkers.city/epaminondas.html</loc>
 		<lastmod>2020-02-24T23:00:25+00:00</lastmod>
 		<image:image>
-			<image:loc>https://draughts.github.io/wp-content/uploads/2020/02/Epaminondas.jpg</image:loc>
+			<image:loc>https://checkers.city/wp-content/uploads/2020/02/Epaminondas.jpg</image:loc>
 			<image:title><![CDATA[Epaminondas]]></image:title>
 			<image:caption><![CDATA[Epaminondas]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://draughts.github.io/halma.html</loc>
+		<loc>https://checkers.city/halma.html</loc>
 		<lastmod>2020-02-25T18:35:27+00:00</lastmod>
 		<image:image>
-			<image:loc>https://draughts.github.io/wp-content/uploads/2020/02/Halma.jpg</image:loc>
+			<image:loc>https://checkers.city/wp-content/uploads/2020/02/Halma.jpg</image:loc>
 			<image:title><![CDATA[Halma]]></image:title>
 			<image:caption><![CDATA[Halma]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://draughts.github.io/konane.html</loc>
+		<loc>https://checkers.city/konane.html</loc>
 		<lastmod>2020-02-25T19:11:37+00:00</lastmod>
 		<image:image>
-			<image:loc>https://draughts.github.io/wp-content/uploads/2020/02/Konane.jpg</image:loc>
+			<image:loc>https://checkers.city/wp-content/uploads/2020/02/Konane.jpg</image:loc>
 			<image:title><![CDATA[Konane]]></image:title>
 			<image:caption><![CDATA[Konane]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://draughts.github.io/chinese-checkers.html</loc>
+		<loc>https://checkers.city/chinese-checkers.html</loc>
 		<lastmod>2020-02-25T19:56:27+00:00</lastmod>
 		<image:image>
-			<image:loc>https://draughts.github.io/wp-content/uploads/2020/02/Chinese-checkers.jpg</image:loc>
+			<image:loc>https://checkers.city/wp-content/uploads/2020/02/Chinese-checkers.jpg</image:loc>
 			<image:title><![CDATA[Chinese checkers]]></image:title>
 			<image:caption><![CDATA[Chinese checkers]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://draughts.github.io/world-draughts-federation.html</loc>
+		<loc>https://checkers.city/world-draughts-federation.html</loc>
 		<lastmod>2020-02-25T21:45:46+00:00</lastmod>
 		<image:image>
-			<image:loc>https://draughts.github.io/wp-content/uploads/2020/02/FMJD.jpg</image:loc>
+			<image:loc>https://checkers.city/wp-content/uploads/2020/02/FMJD.jpg</image:loc>
 			<image:title><![CDATA[FMJD]]></image:title>
 			<image:caption><![CDATA[FMJD]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://draughts.github.io/international-draughts-federation.html</loc>
+		<loc>https://checkers.city/international-draughts-federation.html</loc>
 		<lastmod>2020-02-25T22:16:42+00:00</lastmod>
 		<image:image>
-			<image:loc>https://draughts.github.io/wp-content/uploads/2020/02/International-Draughts-Federation.jpg</image:loc>
+			<image:loc>https://checkers.city/wp-content/uploads/2020/02/International-Draughts-Federation.jpg</image:loc>
 			<image:title><![CDATA[International Draughts Federation]]></image:title>
 			<image:caption><![CDATA[International Draughts Federation]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://draughts.github.io/european-draughts-confederation.html</loc>
+		<loc>https://checkers.city/european-draughts-confederation.html</loc>
 		<lastmod>2020-02-25T22:55:47+00:00</lastmod>
 		<image:image>
-			<image:loc>https://draughts.github.io/wp-content/uploads/2020/02/European-Draughts-Confederation.jpg</image:loc>
+			<image:loc>https://checkers.city/wp-content/uploads/2020/02/European-Draughts-Confederation.jpg</image:loc>
 			<image:title><![CDATA[European Draughts Confederation]]></image:title>
 			<image:caption><![CDATA[European Draughts Confederation]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://draughts.github.io/wp-content/uploads/2020/02/European-Draughts-Federation-Headquarter-in-Tallinn.jpg</image:loc>
+			<image:loc>https://checkers.city/wp-content/uploads/2020/02/European-Draughts-Federation-Headquarter-in-Tallinn.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://draughts.github.io/draughts-federation-of-russia.html</loc>
+		<loc>https://checkers.city/draughts-federation-of-russia.html</loc>
 		<lastmod>2020-02-27T20:12:29+00:00</lastmod>
 		<image:image>
-			<image:loc>https://draughts.github.io/wp-content/uploads/2020/02/Draughts-Federation-of-Russia.png</image:loc>
+			<image:loc>https://checkers.city/wp-content/uploads/2020/02/Draughts-Federation-of-Russia.png</image:loc>
 			<image:title><![CDATA[Draughts Federation of Russia]]></image:title>
 			<image:caption><![CDATA[Draughts Federation of Russia]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://draughts.github.io/mind-sports-organisation.html</loc>
+		<loc>https://checkers.city/mind-sports-organisation.html</loc>
 		<lastmod>2020-02-27T21:35:05+00:00</lastmod>
 		<image:image>
-			<image:loc>https://draughts.github.io/wp-content/uploads/2020/02/Mind-Sports-Organisation.jpg</image:loc>
+			<image:loc>https://checkers.city/wp-content/uploads/2020/02/Mind-Sports-Organisation.jpg</image:loc>
 			<image:title><![CDATA[Mind Sports Organisation]]></image:title>
 			<image:caption><![CDATA[Mind Sports Organisation]]></image:caption>
 		</image:image>
