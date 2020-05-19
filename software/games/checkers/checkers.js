@@ -8,8 +8,8 @@
 // -- SETTINGS --
 
 // Site dependant settings
-var cookiepath='C:/Users/hichem/Desktop/games/checkers';
-var cookiedomain='C:/Users/hichem/Desktop/games/checkers';
+var cookiepath='/software/games/checkers';
+var cookiedomain='checkers.city';
 
 // Default Level of difficulty and max depths:
 var level=2;
