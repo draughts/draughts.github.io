@@ -222,44 +222,129 @@
 					</div><span id="CheatStatus">Clean</span>
 				</form>
 			</div>
-			<noscript>
-				<div class="error">
-					<p class="errortitle">ERROR: JavaScript disabled!</p>
-					<p class="errordesc">You need to enable JavaScript to play this game!</p>
-				</div>
-			</noscript>
-			<script type="text/javascript">
-			document.write('<table id="GameBoard">');
-			for(var j = 0; 7 >= j; j++) {
-				document.write("<tr>");
-				for(var i = 0; 7 >= i; i++) document.write("<td "), (j % 2 + i) % 2 ? (document.write('class="play_sq">'), document.write('<img name="i' + i + "j" + j + '" src="black.png" onClick="plyrClicked(' + i + "," + j + ');">')) : document.write('class="dead_sq">'), document.write(lt + "/td>");
-				document.write(lt + "/tr>")
-			}
-			document.write(lt + "/table>");
-			</script>
-			<p id="MsgArea" class="highlight">Click on a piece to start your move.</p>
-			<div id="PlayerActions">
-				<div class="row"><a id="PlayAgain" href="javascript:newGame();" onclick="this.blur()">Play&nbsp;Again</a> <a id="Rules" href="rules-en-us.html" target="_blank" onclick="this.blur()">Rules&nbsp;&amp;&nbsp;Help</a> <a id="ResetScores" href="javascript:resetScores();" onclick="this.blur()">Reset&nbsp;Scores</a> <a id="UndoMove" href="javascript:undoMove();" onclick="this.blur()">Undo&nbsp;Last&nbsp;Move</a></div>
-				<div class="row"><a id="ShowAbout" href="javascript:showAbout();" onclick="this.blur()">About</a> <a id="ShowGameLog" href="javascript:showGameLog();" onclick="this.blur()">Game&nbsp;Log</a>
-					<form id="SelectLang" name="SelectLang" action="checkers.html" onsubmit="return!1"><span id="LanguageLabel">Language</span>:
-						<div style="display:inline">
-							<select name="lang" onchange="loadLanguage(document.SelectLang.lang.value)">
-								<option value="en-us">English (US)</option>
-								<option value="en-gb">English (UK)</option>
-								<option value="et-ee">Eesti (EE)</option>
-								<option value="fr-fr">Fran&#xE7;ais (FR)</option>
-								<option value="nl-nl">Nederlands (NL)</option>
-							</select>
-						</div>
-					</form>
-				</div>
-			</div><pre id="StatusArea" style="display:none">Status</pre></div>
-		<p class="Credits">Software: <a href="/otto/"><strong>Otto de Voogd</strong></a>, graphics: <strong>Jamey Boje</strong>, assistance: <a href="http://www.mouserunner.com/"><strong>Ken Saunders</strong></a>.</p>
-		<script type="text/javascript" src="lang-en-us.js"></script>
-		<script type="text/javascript">
-		setLevel(0), setLanguage(), resetBoard();
-		</script>
-	</div>
-</body>
-
+			<script type="text/javascript">// Render the playing boarddocument.write('<table id="GameBoard">');for(var j=0;7>=j;j++){document.write('<tr>'); for(var i=0;7>=i;i++){document.write('<td '); if (((j%2)+i)%2){document.write('class="play_sq">'); document.write('<img name="i'+i+'j'+j+'" src="black.png" onClick="plyrClicked('+i+','+j+');">');}else{document.write('class="dead_sq">');}document.write(lt+'/td>');}document.write(lt+'/tr>');}document.write(lt+'/table>');</script>
+            <table id="GameBoard">
+               <tbody>
+                  <tr>
+                     <td class="dead_sq"></td>
+                     <td class="play_sq"><img name="i1j0" src="./Jeu de Dames des Navigateurs_files/ie1.png" onclick="plyrClicked(1,0);"></td>
+                     <td class="dead_sq"></td>
+                     <td class="play_sq"><img name="i3j0" src="./Jeu de Dames des Navigateurs_files/ie1.png" onclick="plyrClicked(3,0);"></td>
+                     <td class="dead_sq"></td>
+                     <td class="play_sq"><img name="i5j0" src="./Jeu de Dames des Navigateurs_files/ie1.png" onclick="plyrClicked(5,0);"></td>
+                     <td class="dead_sq"></td>
+                     <td class="play_sq"><img name="i7j0" src="./Jeu de Dames des Navigateurs_files/ie1.png" onclick="plyrClicked(7,0);"></td>
+                  </tr>
+                  <tr>
+                     <td class="play_sq"><img name="i0j1" src="./Jeu de Dames des Navigateurs_files/ie1.png" onclick="plyrClicked(0,1);"></td>
+                     <td class="dead_sq"></td>
+                     <td class="play_sq"><img name="i2j1" src="./Jeu de Dames des Navigateurs_files/ie1.png" onclick="plyrClicked(2,1);"></td>
+                     <td class="dead_sq"></td>
+                     <td class="play_sq"><img name="i4j1" src="./Jeu de Dames des Navigateurs_files/ie1.png" onclick="plyrClicked(4,1);"></td>
+                     <td class="dead_sq"></td>
+                     <td class="play_sq"><img name="i6j1" src="./Jeu de Dames des Navigateurs_files/ie1.png" onclick="plyrClicked(6,1);"></td>
+                     <td class="dead_sq"></td>
+                  </tr>
+                  <tr>
+                     <td class="dead_sq"></td>
+                     <td class="play_sq"><img name="i1j2" src="./Jeu de Dames des Navigateurs_files/ie1.png" onclick="plyrClicked(1,2);"></td>
+                     <td class="dead_sq"></td>
+                     <td class="play_sq"><img name="i3j2" src="./Jeu de Dames des Navigateurs_files/black.png" onclick="plyrClicked(3,2);"></td>
+                     <td class="dead_sq"></td>
+                     <td class="play_sq"><img name="i5j2" src="./Jeu de Dames des Navigateurs_files/ie1.png" onclick="plyrClicked(5,2);"></td>
+                     <td class="dead_sq"></td>
+                     <td class="play_sq"><img name="i7j2" src="./Jeu de Dames des Navigateurs_files/ie1.png" onclick="plyrClicked(7,2);"></td>
+                  </tr>
+                  <tr>
+                     <td class="play_sq"><img name="i0j3" src="./Jeu de Dames des Navigateurs_files/black.png" onclick="plyrClicked(0,3);"></td>
+                     <td class="dead_sq"></td>
+                     <td class="play_sq"><img name="i2j3" src="./Jeu de Dames des Navigateurs_files/black.png" onclick="plyrClicked(2,3);"></td>
+                     <td class="dead_sq"></td>
+                     <td class="play_sq"><img name="i4j3" src="./Jeu de Dames des Navigateurs_files/ie1.png" onclick="plyrClicked(4,3);"></td>
+                     <td class="dead_sq"></td>
+                     <td class="play_sq"><img name="i6j3" src="./Jeu de Dames des Navigateurs_files/black.png" onclick="plyrClicked(6,3);"></td>
+                     <td class="dead_sq"></td>
+                  </tr>
+                  <tr>
+                     <td class="dead_sq"></td>
+                     <td class="play_sq"><img name="i1j4" src="./Jeu de Dames des Navigateurs_files/black.png" onclick="plyrClicked(1,4);"></td>
+                     <td class="dead_sq"></td>
+                     <td class="play_sq"><img name="i3j4" src="./Jeu de Dames des Navigateurs_files/black.png" onclick="plyrClicked(3,4);"></td>
+                     <td class="dead_sq"></td>
+                     <td class="play_sq"><img name="i5j4" src="./Jeu de Dames des Navigateurs_files/fx1.png" onclick="plyrClicked(5,4);"></td>
+                     <td class="dead_sq"></td>
+                     <td class="play_sq"><img name="i7j4" src="./Jeu de Dames des Navigateurs_files/black.png" onclick="plyrClicked(7,4);"></td>
+                  </tr>
+                  <tr>
+                     <td class="play_sq"><img name="i0j5" src="./Jeu de Dames des Navigateurs_files/fx1.png" onclick="plyrClicked(0,5);"></td>
+                     <td class="dead_sq"></td>
+                     <td class="play_sq"><img name="i2j5" src="./Jeu de Dames des Navigateurs_files/fx1.png" onclick="plyrClicked(2,5);"></td>
+                     <td class="dead_sq"></td>
+                     <td class="play_sq"><img name="i4j5" src="./Jeu de Dames des Navigateurs_files/fx1.png" onclick="plyrClicked(4,5);"></td>
+                     <td class="dead_sq"></td>
+                     <td class="play_sq"><img name="i6j5" src="./Jeu de Dames des Navigateurs_files/black.png" onclick="plyrClicked(6,5);"></td>
+                     <td class="dead_sq"></td>
+                  </tr>
+                  <tr>
+                     <td class="dead_sq"></td>
+                     <td class="play_sq"><img name="i1j6" src="./Jeu de Dames des Navigateurs_files/fx1.png" onclick="plyrClicked(1,6);"></td>
+                     <td class="dead_sq"></td>
+                     <td class="play_sq"><img name="i3j6" src="./Jeu de Dames des Navigateurs_files/fx1.png" onclick="plyrClicked(3,6);"></td>
+                     <td class="dead_sq"></td>
+                     <td class="play_sq"><img name="i5j6" src="./Jeu de Dames des Navigateurs_files/fx1.png" onclick="plyrClicked(5,6);"></td>
+                     <td class="dead_sq"></td>
+                     <td class="play_sq"><img name="i7j6" src="./Jeu de Dames des Navigateurs_files/fx1.png" onclick="plyrClicked(7,6);"></td>
+                  </tr>
+                  <tr>
+                     <td class="play_sq"><img name="i0j7" src="./Jeu de Dames des Navigateurs_files/fx1.png" onclick="plyrClicked(0,7);"></td>
+                     <td class="dead_sq"></td>
+                     <td class="play_sq"><img name="i2j7" src="./Jeu de Dames des Navigateurs_files/fx1.png" onclick="plyrClicked(2,7);"></td>
+                     <td class="dead_sq"></td>
+                     <td class="play_sq"><img name="i4j7" src="./Jeu de Dames des Navigateurs_files/fx1.png" onclick="plyrClicked(4,7);"></td>
+                     <td class="dead_sq"></td>
+                     <td class="play_sq"><img name="i6j7" src="./Jeu de Dames des Navigateurs_files/fx1.png" onclick="plyrClicked(6,7);"></td>
+                     <td class="dead_sq"></td>
+                  </tr>
+               </tbody>
+            </table>
+            <p id="MsgArea" class="highlight">C'est vôtre tour, choisissez le pion que vous voulez jouer.</p>
+            <div id="PlayerActions">
+               <div class="row"><a id="PlayAgain" href="javascript:newGame();" onclick="this.blur();">Recommencer!</a><a id="Rules" href="http://7is7.com/software/games/checkers/rules-fr-fr.html" target="_blank" onclick="this.blur();">Règles &amp; Aide</a><a id="ResetScores" href="javascript:resetScores();" onclick="this.blur();">Réinitialiser le Score</a><a id="UndoMove" href="javascript:undoMove();" onclick="this.blur();">Annulation</a></div>
+               <div class="row">
+                  <a id="ShowAbout" href="javascript:showAbout();" onclick="this.blur();">À Propos</a><a id="ShowGameLog" href="javascript:showGameLog();" onclick="this.blur();">Historique du Jeu</a>
+                  <form id="SelectLang" method="get" name="SelectLang" action="http://7is7.com/software/games/checkers/checkers.html" onsubmit="return(false);">
+                     <span id="LanguageLabel">Langue</span>:
+                     <div style="display:inline;">
+                        <select name="lang" onchange="loadLanguage(document.SelectLang.lang.value);">
+                           <option value="en-us">English (US)</option>
+                           <option value="en-gb">English (UK)</option>
+                           <option value="et-ee">Eesti (EE)</option>
+                           <option value="fr-fr">Français (FR)</option>
+                           <option value="nl-nl">Nederlands (NL)</option>
+                        </select>
+                     </div>
+                  </form>
+               </div>
+            </div>
+            <pre id="StatusArea" style="display:none">Status</pre>
+         </div>
+         <p class="Credits">Software: <a href="http://7is7.com/otto/"><strong>Otto de Voogd</strong></a>, graphics: <strong>Jamey Boje</strong>, assistance: <a href="http://www.mouserunner.com/"><strong>Ken Saunders</strong></a>.</p>
+         <p class="bookmark"><a rel="nofollow" onclick="return(openWin(this));" href="https://plus.google.com/share?url=http://www.7is7.com/software/games/checkers/" title="Post on Google+"><img src="./Jeu de Dames des Navigateurs_files/googleplus.png" alt="Google+ icon"></a><a rel="nofollow" onclick="return(openWin(this));" href="http://www.facebook.com/sharer.php?u=http://www.7is7.com/software/games/checkers/" title="Share link on Facebook"><img src="./Jeu de Dames des Navigateurs_files/facebook.png" alt="Facebook icon"></a><a rel="nofollow" onclick="return(openWin(this));" href="https://www.linkedin.com/cws/share?url=http://www.7is7.com/software/games/checkers/&amp;original_referer=http://www.7is7.com/software/games/checkers/" title="Share on LinkedIn"><img src="./Jeu de Dames des Navigateurs_files/linkedin.png" alt="LinkedIn icon"></a><a rel="nofollow" onclick="return(openWin(this));" href="http://twitter.com/home?status=Help%20Firefox%20beat%20Internet%20Explorer%20at%20checkers%21%20http://www.7is7.com/software/games/checkers/%20%23checkers" title="Tweet this on Twitter"><img src="./Jeu de Dames des Navigateurs_files/twitter.png" alt="Twitter icon"></a><a rel="nofollow" onclick="return(openWin(this));" href="http://delicious.com/save?jump=yes&amp;url=http://www.7is7.com/software/games/checkers/&amp;title=Browser%20War%20Checkers&amp;notes=Help%20Firefox%20beat%20Internet%20Explorer%20at%20checkers%21" title="Bookmark on Del.icio.us"><img src="./Jeu de Dames des Navigateurs_files/delicious.gif" alt="del.icio.us icon"></a><a rel="nofollow" onclick="return(openWin(this));" href="http://www.stumbleupon.com/submit?url=http://www.7is7.com/software/games/checkers/&amp;title=Browser%20War%20Checkers" title="Add to Stumbleupon"><img src="./Jeu de Dames des Navigateurs_files/stumbleupon.gif" alt="StumbleUpon icon"></a><a rel="nofollow" onclick="return(openWin(this));" href="http://www.spurl.net/spurl.php?v=3&amp;url=http://www.7is7.com/software/games/checkers/&amp;title=Browser%20War%20Checkers%20-%20Help%20Firefox%20beat%20Internet%20Explorer%20at%20checkers%21" title="Add to Spurl"><img src="./Jeu de Dames des Navigateurs_files/spurl.png" alt="Spurl icon"></a><a rel="nofollow" onclick="return(openWin(this));" href="http://www.blinklist.com/blink?u=http://www.7is7.com/software/games/checkers/&amp;t=Browser%20War%20Checkers&amp;d=Help%20Firefox%20beat%20Internet%20Explorer%20at%20checkers%21&amp;v=2" title="Add to Blinklist"><img src="./Jeu de Dames des Navigateurs_files/blinklist.png" alt="Blinklist icon"></a><a rel="nofollow" onclick="return(openWin(this));" href="http://www.linkagogo.com/go/AddNoPopup?title=Browser%20War%20Checkers&amp;url=http://www.7is7.com/software/games/checkers/" title="Add to LinkaGoGo"><img src="./Jeu de Dames des Navigateurs_files/linkagogo.png" alt="LinkaGoGo icon"></a><a rel="nofollow" onclick="return(openWin(this));" href="http://www.google.com/bookmarks/mark?op=edit&amp;output=popup&amp;bkmk=http://www.7is7.com/software/games/checkers/&amp;title=Browser%20War%20Checkers" title="Add to Google Bookmarks"><img src="./Jeu de Dames des Navigateurs_files/google.png" alt="Google icon"></a><a rel="nofollow" onclick="return(openWin(this));" href="http://flattr.com/thing/60913/Browser-War-Checkers" title="Flattr this page"><img src="./Jeu de Dames des Navigateurs_files/flattr.png" alt="Flattr icon"></a></p>
+         <script type="text/javascript" src="./Jeu de Dames des Navigateurs_files/lang-en-us.js.téléchargement"></script><script type="text/javascript">// Set level of difficultysetLevel(0);// Set user languagesetLanguage();// Set up the gameresetBoard();</script>
+      </div>
+      <div class="dfoot">
+         <p class="footlinks"><a href="http://7is7.com/" title="7is7.com Home Page">7is7.com</a> |<a href="http://7is7.com/otto/travel/" title="Read about our world trip!">Travel</a> |<a href="http://7is7.com/otto/estonia/" title="Photos of Estonia">Estonia</a> |<a href="http://7is7.com/software/" title="Software">Software</a> |<a href="http://7is7.com/otto/countdclock.html" title="A free countdown clock for your website.">Countdown</a> |<a href="http://7is7.com/software/firefox/" title="Firefox Utilities">Firefox</a> |<a href="http://7is7.com/software/stateye/" title="Free traffic analysis software for your website.">StatEye</a></p>
+         <p class="aboutlinks"><a href="http://7is7.com/otto/about/new.html" title="Recent additions and changes">New</a> |<a href="http://7is7.com/otto/about/" title="Information about 7is7.com">About</a> |<a href="http://7is7.com/otto/about/contact.html" title="Contact Otto de Voogd">Contact</a> |<a rel="author" href="http://7is7.com/otto/about/connect.html" title="Connect with Otto de Voogd">Connect</a> |<a href="http://7is7.com/otto/about/friends.html" title="Friends of 7is7.com">Friends</a> |<a href="http://7is7.com/promo/" title="Offers and Promotions">Promotions</a> |<a href="http://7is7.com/otto/about/copy.html" title="7is7.com copyright policy">Copyright</a> |<a href="http://7is7.com/promo/advertise.html" title="Advertise on 7is7.com">Advertise</a></p>
+         <div class="FootButtons">
+            <p class="RedButtons"><a href="http://www.mozilla.com/firefox/" title="Get Firefox!"><img width="110" height="32" alt="Get Firefox!" src="./Jeu de Dames des Navigateurs_files/110x32_gold.png"></a><a href="http://www.libreoffice.org/" title="Download LibreOffice"><img src="./Jeu de Dames des Navigateurs_files/110x32.png" width="110" height="32" alt="Download LibreOffice"></a><a href="http://fedoraproject.org/" title="Use Fedora"><img src="./Jeu de Dames des Navigateurs_files/110x32_f8.png" width="110" height="32" alt="Use Fedora"></a></p>
+         </div>
+      </div>
+      <div id="popup_overlay">
+         <div id="popup_msg">
+            <div id="popup_text">Message</div>
+            <div id="popup_buttons"><a id="NoButton" href="javascript:hidePopupOverlay();" onclick="this.blur()">Non</a><a id="YesButton" href="javascript:hidePopupOverlay();" onclick="this.blur()">Oui</a><a id="OkButton" href="javascript:hidePopupOverlay();" onclick="this.blur()">OK</a></div>
+         </div>
+      </div>
+      <span style="margin: 0px auto; border: 2px dotted rgb(0, 0, 0); position: absolute; z-index: 2147483647; visibility: hidden; left: 30px; width: 0px; top: 18px; height: 0px;"></span><span style="z-index: 2147483647; position: absolute; visibility: hidden; left: 15px; width: 50px; top: 3px; height: 20px; font-size: 10px; color: black;"></span>
+   </body>
 </html>
