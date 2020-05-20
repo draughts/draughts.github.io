@@ -37,7 +37,7 @@ var wait_for_comp_move = "Please wait for Internet Explorer to make a move.";
 var comp_move = "Internet Explorer is moving a piece.";
 var move_undone = "Previous move undone. It's your turn.";
 
-var select_a_piece = "Click on the piece you want to play.";
+var select_a_piece = "";
 var select_own_piece = "Please select one of your own pieces.";
 var select_destination = "Click on the square you want to move your piece to.";
 
