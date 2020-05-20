@@ -765,7 +765,7 @@ dd {margin: 0 1.5em 1.5em;}
 img {height: auto;-ms-interpolation-mode: bicubic;}
 .owl-carousel .owl-item img, .vce-featured-grid .owl-item img {width: auto;}
 figure {margin: 0;}
-table {border-collapse: separate;border-spacing: 0;margin: 0 0 1.5em;width: 100%;border-top: 1px solid #e6e6e6;border-left: 1px solid rgba(0,0,0,.07);}
+table {border-collapse: separate;border-spacing: 0;margin: 0 0 1.5em;border-top: 1px solid #e6e6e6;border-left: 1px solid rgba(0,0,0,.07);}
 th {font-weight: 700;}
 button, input, select, textarea {font-size: 100%;margin: 0;vertical-align: baseline;}
 #vce-pagination .next.page-numbers, #vce-pagination .page-numbers, #vce-pagination .page-numbers.current, #vce-pagination .prev.page-numbers, #vce-pagination a, .bbp-pagination-links a, .bbp-pagination-links span.current, .mks_author_link, .mks_themeforest_widget .more, .pagination-wapper a, .sidebar .bbp_widget_login .button, .vce-404-menu a, .vce-button, .vce-link-pages a, .vce-load-more a, .vce-mega-menu-posts-wrap .owl-nav>div, .vce-slider-pagination .owl-nav>div, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce ul.products li.product .added_to_cart, .woocommerce-cart .wc-proceed-to-checkout a.checkout-button, button, input[type=button], input[type=reset], input[type=submit] {border-radius: 4px;font-size: 14px;line-height: 22px;color: #fff;text-align: center;display: inline-block;width: auto;padding: 5px 10px;text-decoration: none;border: none;min-width: 90px;background-position: center center;-webkit-transition: all .2s ease-in-out;-moz-transition: all .2s ease-in-out;-o-transition: all .2s ease-in-out;transition: all .2s ease-in-out;-webkit-appearance: none;}
