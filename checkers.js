@@ -9,7 +9,7 @@
 
 // Site dependant settings
 var cookiepath='/software/games/checkers';
-var cookiedomain='checkers.city';
+var cookiedomain='7is7.com';
 
 // Default Level of difficulty and max depths:
 var level=2;
