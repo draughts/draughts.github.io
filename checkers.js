@@ -378,10 +378,10 @@ function dimMsgArea() {
 
 function showAbout() {
  var msg = '<div style="text-align:center;">';
- msg += '<strong>Browser War Checkers</strong><br>';
+ msg += '<strong>Play Checkers Online ⇒ Free Online Checkers Game</strong><br>';
  msg += 'version '+checkers_version;
- msg += '<div style="margin-top:1em;">Copyright %A9 2006-2011 ';
- msg += '<a target="_blank" href="http://www.7is7.com/">Otto de Voogd</a>';
+ msg += '<div style="margin-top:1em;">Copyright %A9 2020 ';
+ msg += '<a target="_blank" href="http://checkers.city/">Checkers</a>';
  msg += '</div></div>';
  showAlert(msg);
 }

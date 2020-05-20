@@ -4,8 +4,8 @@ var lang_desc = "English (US)";
 
 // Elements of the pages
 
-var header = "Browser War Checkers";
-var game_blurb = "Internet Explorer has taken control over your computer, help Firefox win this battle and take it back.";
+var header = "Play Checkers Online ⇒ Free Online Checkers Game";
+var game_blurb = "";
 var play_game = "Play Checkers";
 var play_again = "Play again!";
 var rules = "Rules %26 Help";
@@ -37,7 +37,7 @@ var wait_for_comp_move = "";
 var comp_move = "";
 var move_undone = "";
 
-var select_a_piece = "Click on the piece you want to play.";
+var select_a_piece = "";
 var select_own_piece = "";
 var select_destination = "";
 
