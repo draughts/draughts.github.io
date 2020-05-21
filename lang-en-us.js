@@ -5,7 +5,7 @@ var lang_desc = "English (US)";
 // Elements of the pages
 
 var header = "Play Checkers Online ⇒ Free Online Checkers Game";
-var game_blurb = "";
+var game_blurb = "Your ennemy won, want tou replay?";
 var play_game = "Play Checkers";
 var play_again = "Play again!";
 var rules = "Rules %26 Help";
