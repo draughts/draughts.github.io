@@ -1,8 +1,8 @@
-# Checkers City
+# Play draughts online
 
-This is a simple HTML & javascript game website where you can play checkers online against the computer, an old but challenging board game on an 8×8 checkers-board.
+This is a simple HTML & javascript game website where you can play draughts online against the computer, an old but challenging board game on an 8×8 checkers-board.
 
-## How to play?
+## How to play draughts?
 
 The rules are simple:
 
@@ -13,4 +13,4 @@ The rules are simple:
 - When a piece reaches the last opposing line of the board, it becomes King and can take backward.
 - To win the game, you have to eat all your opponent's pieces or block them so they can not make any valid move.
 
-The old draughts.github.io has now become https://draughts.github.io/... Have fun playing it and tell us what you think..
+You can play draughts online on https://draughts.github.io/... Have fun and tell us what you think..
