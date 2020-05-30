@@ -13,4 +13,4 @@ The rules are simple:
 - When a piece reaches the last opposing line of the board, it becomes King and can take backward.
 - To win the game, you have to eat all your opponent's pieces or block them so they can not make any valid move.
 
-The old draughts.github.io has now become https://checkers.city/... Have fun playing it and tell us what you think..
+The old draughts.github.io has now become https://draughts.github.io/... Have fun playing it and tell us what you think..
