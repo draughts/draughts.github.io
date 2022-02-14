@@ -14,4 +14,4 @@ The rules are simple:
 - When a piece reaches the last opposing line of the board, it becomes King and can take backward.
 - To win the game, you have to eat all your opponent's pieces or block them so they can not make any valid move.
 
-You can play draughts online on https://draughts.github.io/ Have fun and tell us what you think..
+You can play draughts online on https://draughts.github.io/ Have fun and tell us what you think.
