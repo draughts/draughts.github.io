@@ -378,7 +378,7 @@ function dimMsgArea() {
 
 function showAbout() {
  var msg = '<div style="text-align:center;">';
- msg += '<strong>Play Checkers / Draughts Online</strong><br>';
+ msg += '<strong>Play Draughts Online</strong><br>';
  msg += 'version '+checkers_version;
  msg += '<div style="margin-top:1em;">Copyright %A9 2020 ';
  msg += '<a target="_blank" href="http://draughts.github.io/">Checkers</a>';
